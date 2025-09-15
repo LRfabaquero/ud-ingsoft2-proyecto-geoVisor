@@ -1,4 +1,10 @@
-#map{
-    height: 100px;
-    width: 100%;
+#map {
+    height: calc(100vh - 80px);
+    width: calc(100vw - 80px);
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
